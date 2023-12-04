@@ -4,9 +4,10 @@ const questions = require("./inquirerQuestions.js");
 
 inquirer.prompt(questions)
 
-// .then(data => {
-//     const logo = generateLogo(data)
-// })
+.then(data => {
+    console.log(data)
+    // const logo = generateLogo(data)
+})
 
 function init () {
 
