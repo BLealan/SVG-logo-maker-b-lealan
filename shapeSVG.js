@@ -35,10 +35,10 @@ const generateLogo = ({ width, height, shapeColor, shapeData, fontColor }) =>
         <meta charset="utf-8">
     </head>
     <body>
-        <svg version="1.1" width ="${Shape.width}" height="${Shape.height}" xmlns="http://www.w3.org/2000/svg">
-        <rect width="100%" height="100%" fill ="${Shape.shapeColor}"/>
-        <${Shape.shapeData}/>
-        <text x="150" y="100" font-size="60" text-anchor="middle" fill="${Shape.fontColor}">${Shape.characters}</text>
+        <svg version="1.1" width ="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill ="${shapeColor}"/>
+        <${shapeData}/>
+        <text x="150" y="100" font-size="60" text-anchor="middle" fill="${fontColor}">${characters}</text>
         </svg>
     </body>
 </html>`
