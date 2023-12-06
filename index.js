@@ -11,9 +11,8 @@ inquirer.prompt(questions)
 .then(data => {
     console.log(data)
     const logo = generateLogo(data)
-    console.log(logo);
-    writeToFile(logo);
-})
+    return writeToFile(logo)
+});
 
 function init () {
 

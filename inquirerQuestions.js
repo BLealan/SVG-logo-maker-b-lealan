@@ -29,7 +29,7 @@ const questions = [
     },
     {
         type: "list",
-        name: "shape",
+        name: "shapeChoice",
         message: "Please select a shape",
         choices: ["Circle", "Triangle", "Square"]
     },
