@@ -8,12 +8,18 @@ const checkCharacters = async (input) => {
     }
 };
 
-// const checkColor = async (input) => {
-//     const hexCodeRegex = /^#[0-9A-F]{6}$/;
-//     if (!hexCodeRegex.test(input)) {
-//         return "Please enter a valid hex number"
-//     };
-// }
+const checkColor = async (input) => {
+    const hexCodeRegEx = /^#[0-9A-F]{6}$/;
+    if (!input) {
+        return "Please enter a color keyword or hex number";
+    } else if (hexCodeRegEx.test(input)) {
+        return "Please enter a valid hex number";
+    // } else if (colorKeywordArray.includes(input)) {
+    //     return "Please enter a valid color keyword";
+    } else {
+        return true;
+    };
+}
 
 const questions = [
     {
@@ -25,7 +31,7 @@ const questions = [
     {   type: "input",
         name: "fontColor",
         message: "Please type the font color you would like (keyword or hex no.)",
-        // validate: checkColor
+        validate: checkColor
     },
     {
         type: "list",
@@ -37,7 +43,7 @@ const questions = [
         type: "input",
         name: "shapeColor",
         message: "Please type the shape color you would like (keyword or hex no.)",
-        // validate: checkColor
+        validate: checkColor
     }
 ];
 

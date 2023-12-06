@@ -11,9 +11,6 @@ console.log(circle, triangle, square)
 
 const generateLogo = ({ shapeColor, fontColor, characters, shapeChoice }) => {
 
-    // let generateFontColor = fontColor;
-    // let generateShapeColor = shapeColor;
-
     let shapeData = "";
     switch(shapeChoice){
         case "Circle":
@@ -29,8 +26,6 @@ const generateLogo = ({ shapeColor, fontColor, characters, shapeChoice }) => {
             return "Error, shape not found"
     }
 
-    console.log (shapeData)
-
 return`<!DOCTYPE html>
 <html>
     <head>
@@ -40,7 +35,7 @@ return`<!DOCTYPE html>
         <svg version="1.1" width ="300" height="200" xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill ="white"/>
         <${shapeData} fill="${shapeColor}"/>
-        <text x="50%" y="120" font-size="60" text-anchor="middle" fill="${fontColor}">${characters}</text>
+        <text x="50%" y="120" font-size="50" text-anchor="middle" fill="${fontColor}">${characters}</text>
         </svg>
     </body>
 </html>`
