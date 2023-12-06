@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const questions = require("./inquirerQuestions.js");
-const generateLogo = require("./shapeSVG.js");
+const questions = require("./lib/inquirerQuestions.js");
+const generateLogo = require("./lib/shapeSVG.js");
 
 const writeToFile = (newFile) => 
 fs.writeFile("logo.svg", newFile, (err) => 

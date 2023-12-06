@@ -1,4 +1,0 @@
-const colorKeywordArray = colors;
-colorKeywordArray.filter( onlyUnique );
-
-console.log(colorKeywordArray);

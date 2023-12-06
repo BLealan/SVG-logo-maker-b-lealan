@@ -6,8 +6,8 @@
     <body>
         <svg version="1.1" width ="300" height="200" xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill ="white"/>
-        <circle cx="150" cy="100" r="90" fill="sgvadesb"/>
-        <text x="50%" y="120" font-size="50" text-anchor="middle" fill="werfg">BEN</text>
+        <polygon points="150,10 25,190 275,190" fill="#19d12b"/>
+        <text x="50%" y="120" font-size="50" text-anchor="middle" fill="#d119bf">WOW</text>
         </svg>
     </body>
 </html>
