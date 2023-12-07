@@ -13,9 +13,3 @@ inquirer.prompt(questions)
     const logo = generateLogo(data)
     return writeToFile(logo)
 });
-
-function init () {
-
-}
-
-init();

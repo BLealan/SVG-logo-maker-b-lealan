@@ -26,3 +26,4 @@ Please ensure you have downloaded and installed the [Inquirer package](https://w
 - https://en.m.wikipedia.org/wiki/File:SVG_Recognized_color_keyword_names.svg
 - https://www.w3.org/TR/SVG11/types.html#ColorKeywords
 - https://stackoverflow.com/questions/57321266/how-to-test-inquirer-validation
+- https://stackoverflow.com/questions/5546346/how-to-place-and-center-text-in-an-svg-rectangle
