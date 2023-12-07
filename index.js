@@ -9,7 +9,6 @@ err ? console.log(err): console.log("Generated logo.svg"))
 
 inquirer.prompt(questions)
 .then(data => {
-    console.log(data)
     const logo = generateLogo(data)
     return writeToFile(logo)
 });

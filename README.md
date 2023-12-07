@@ -15,13 +15,15 @@ I wrote a conditional function to enure that the user's character input matched 
 
 ## Installation
 
-Please ensure you have downloaded and installed the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). Navigate to the folder you have downloaded this repo, then run `node index.js` and follow the prompts. A file entitled 'logo.svg' will be generated within this folder for you to use.
+Please ensure you have downloaded and installed the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
 [Jest](https://www.npmjs.com/package/jest) should also be installed in order to run `npm test` to test the functionality of the generateShape function.
 
 ## Usage
 
-![demonstration of generating README](./assets/images/demo-video.gif)
+Navigate to the folder you have downloaded this repo, then run `node index.js` and follow the prompts. A file entitled 'logo.svg' will be generated within this folder for you to use.
+
+![demonstration of generating SVG logo and test](images/SVG-logo-generator-demo.gif)
 
 ## Sources
 - https://stackoverflow.com/questions/8027423/how-to-check-if-a-string-is-a-valid-hex-color-representation
